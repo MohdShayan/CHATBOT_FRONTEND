@@ -47,6 +47,8 @@ const Login = () => {
           <Input label="Email" name="email" value={formData.email} onChange={handleChange} type="email" placeholder="Enter your email" />
           <Input label="Password" name="password" value={formData.password} onChange={handleChange} type="password" placeholder="Enter your password" />
 
+          <button className="bg-transparent text-lime-500 cursor-pointer" onClick={()=>{navigate('/signup')}}>Signup</button>
+
           <button
             type="submit"
             className="w-full py-2 bg-gradient-to-br  from-yellow-400 to-green-500 text-black font-semibold rounded-lg hover:from-green-500 hover:to-teal-600 transition duration-150"
