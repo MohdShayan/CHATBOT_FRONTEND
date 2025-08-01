@@ -205,8 +205,8 @@ const ChatBot = () => {
             <div
               key={idx}
               className={`max-w-[70%] px-4 py-2 rounded-lg break-words text-sm ${msg.sender === "user"
-                  ? "bg-green-700 self-end text-right ml-auto"
-                  : "bg-gray-800 self-start text-left mr-auto"
+                  ? "bg-gray-700 self-end text-right ml-auto"
+                  : "bg-gradient-to-br from-teal-400 to-cyan-200 self-start text-left mr-auto text-black"
                 }`}
             >
               {msg.content}
